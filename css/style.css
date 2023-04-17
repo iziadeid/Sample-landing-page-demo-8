@@ -184,11 +184,13 @@ body::after {
 
 @media (max-width:767px) {
     .container .parent .text h1 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
-
+.container .parent .text p{
+    font-size:13px;
+    }
     .container .parent .image img {
-        width: 300px;
+        width: 250px;
     }
 
     .container nav ul li a:hover::after {
